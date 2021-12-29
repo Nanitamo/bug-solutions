@@ -11,6 +11,12 @@ html{
     scroll-behavior: smooth;
 }
 
+.topUp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 /* Menu fixo no rodapé */
 /*html, body{
     height: 100%;
