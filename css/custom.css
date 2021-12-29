@@ -127,26 +127,31 @@ section{
     font-family: 'Ubuntu', sans-serif;
     
 }
-.top .max-width{
+
+.top .max-width .top-content{
     width: 100%;
-    display: flex;
-    
+    display: block;
+    align-items: center;
 }
 .top .top-content .text-1{
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 100px;
+    text-align: center;
+    
 }
 .top .top-content .text-2{
     font-size: 55px;
     font-weight: 400;
     margin-left: -3px;
+    text-align: center;
 }
 .top .top-content .text-3{
-    font-size: 32px;
+    font-size: 40px;
     margin: 5px 0;
+    text-align: center;
 }
 .top .top-content a{
-    display: inline-block;
+    display: inline-flex;
     background: #194786;
     color: #fff;
     font-size: 25px;
@@ -156,6 +161,7 @@ section{
     border-radius: 6px;
     border: 2px solid #194786;
     transition: all 0.3s ease;
+   
 }
 .top .top-content a:hover{
     color: #194786;
@@ -403,4 +409,14 @@ footer span a{
 }
 footer span a:hover{
     color: #fff;
+}
+
+.link{
+    top: -120px;
+    position: relative;
+    z-index: 5;
+}
+
+.list-social{
+    display: flex;  
 }
